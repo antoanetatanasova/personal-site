@@ -1,0 +1,28 @@
+@import url('https://use.fontawesome.com/releases/v5.15.2/css/all.css');
+
+.footer {
+    background-color: $darkOrchid;
+    color: $midnightBlue;
+    text-align: center;
+    margin: 0px;
+    padding: 5rem;
+
+    &--contact-info {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        color: $midnightBlue;
+        margin: 0px;
+        padding: 0px;
+        font-size: 3em;
+
+        &-item {
+            padding: .3em;
+
+            &-link {
+                text-decoration: none;
+                color: $midnightBlue;
+            }
+        }
+    }
+}
