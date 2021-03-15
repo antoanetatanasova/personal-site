@@ -1,9 +1,17 @@
 .recent-article {
-    background-image: linear-gradient(to right top, #8d3fd0, #7f3ed0, #703dd0, #5f3dd0, #4b3cd0, #6935c9, #7f2dc1, #9124b8, #b80ba3, #d3028c, #e42076, #ed3d63);
+    /* background-image: linear-gradient(to right top, #8d3fd0, #7f3ed0, #703dd0, #5f3dd0, #4b3cd0, #6935c9, #7f2dc1, #9124b8, #b80ba3, #d3028c, #e42076, #ed3d63); */
+    background-color: $midnightBlue;
     margin-top: 0px;
     padding: 7em 10em;
     text-align: center;
     color: white;
 
+    &-wrapper {
+        background-color: rgba(255, 255, 255, .8);
+        box-shadow: 3px 3px 14px 3px rgba(24, 23, 23, 0.8);
+        border-radius: 12px;
+        color: $palatinateBlue;
+        padding: 2em;
+    }
     
 }
