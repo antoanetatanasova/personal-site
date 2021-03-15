@@ -5,13 +5,36 @@
     padding: 7em 10em;
     text-align: center;
     color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
 
     &-wrapper {
+        width: 80%;
+        margin: 0px auto;
         background-color: rgba(255, 255, 255, .8);
         box-shadow: 3px 3px 14px 3px rgba(24, 23, 23, 0.8);
         border-radius: 12px;
         color: $palatinateBlue;
         padding: 2em;
+    }
+
+    &-section-title {
+        text-transform: uppercase;
+        text-align: center;
+        background-color: $darkOrchid;
+        margin: 0px auto;
+        margin-top: 3em;
+        padding: .3rem;
+        width: 50%;
+        color: white;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+
+    }
+
+    &-main-title {
+        text-transform: uppercase;
     }
     
 }
