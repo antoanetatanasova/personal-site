@@ -16,4 +16,5 @@ ReactDOM.render(
         <HeaderComponent />
         <MainComponent />
         <FooterComponent />
-    </React.StrictMode>, document.querySelector("#root"))
+    </React.StrictMode>, document.querySelector("#root")
+    );
