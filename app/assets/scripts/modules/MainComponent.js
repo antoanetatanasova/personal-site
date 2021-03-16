@@ -1,10 +1,10 @@
 import React from 'react';
-import RecentArticleComponent from './RecentArticleComponent'
+import HomePageComponent from './HomePageComponent'
 
 const MainComponent = () => {
     return (
         <main>
-            <RecentArticleComponent />
+            <HomePageComponent />
         </main>
     );
 }
