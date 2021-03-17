@@ -1,0 +1,244 @@
+{
+    "FeaturedArticle" : [
+        {
+            "_id": "0",
+            "title": "Military Reforms as a Diplomatic Bargaining Chip",
+            "subtitle": "French-Ottoman Relations at the End of the Eighteenth Century",
+            "book": "in: European Revolutions and the Ottoman Balkans Nationalism, Violence and Empire in the Long Nineteenth-Century, Editor: Dimitris Stamatopoulos",
+            "moreInfoLink": "https://www.bloomsbury.com/uk/european-revolutions-and-the-ottoman-balkans-9780755603282/",
+            "readLink": "https://books.google.bg/books?hl=en&lr=&id=wWjDDwAAQBAJ&oi=fnd&pg=PA65&ots=MAUAUK229u&sig=XpWo7E4YHIgI1MMlnKe_KWHZk_0&redir_esc=y#v=onepage&q&f=false"
+        }
+
+    ],
+    "Interests": [
+        {
+            "_id": "1",
+            "title": "History",
+            "description": "My major research interests are directed towards the European models of modernization of the Ottoman Empire during the Eighteenth Century, as well as toward the European-Ottoman relations interconected with those modernization processes."
+        },
+        {
+            "_id": "2",
+            "title": "Translation Studies",
+            "description": "I am tempted to explain the strategies to translate the “untranslatability”: lacunas or liguistic gaps. Part of my research interest in focused on explaining the ways to translate the culture-specific material elements or realia."
+        },
+        {
+            "_id": "3",
+            "title": "Translation",
+            "description": "I take pride in being a published translator, when in 2013 I took part in translating a section of Pierre Michon's book <span>Corps du roi</span>. My prefered language pair is French-Bulgarian."
+        }
+    ],
+
+    "Profile": [
+        {
+            "_id": 4,
+            "imageURL": "https://res.cloudinary.com/the-potential/image/upload/v1615903169/personal-site/antoinette_ezrg3f.jpg",
+            "description": "Hi, my name is Antoaneta. I was born in Sofia, but at some point of my live I had the opportunity to live in two of the most intriguing cities of the world: Paris and Istanbul. I reached to these cities because of the desire to read more than anyone else in the world and even to read what no-one has read before me. This dream was fully accomplished when in 2015 I worked on creating the inventory of the Archive of the American Board of Missions. At that time I was the first one who opened some of the documents, forgotten long ago."
+        }
+    ],
+    "Research": [
+        {
+            "_id": 5,
+            "category": "History",
+            "title": "Army Advisors and Diplomacy. French-Ottoman Relations in the Eighteen Centiry",
+            "description": "PhD Thesis",
+            "url": ""
+        },
+        {
+            "_id": 6,
+            "category": "Translation Studies",
+            "title:": "The Koreen Novel Catfish by Kim Joo-young",
+            "description": "In 2008 I received an award for essay based on this novel, granted by the Korean Studies Department at the Sofia University and KLTI - Korean Literature Translation Institue",
+            "url": ""
+        },
+        {
+            "_id": 6,
+            "category": "Translation Studies",
+            "title:": "La traduction des realia",
+            "description": "I worked on this project",
+            "url": ""
+        },
+        {
+            "_id": 6,
+            "category": "",
+            "title:": "Award for achievements in the field og culture",
+            "description": "delivered by Sofia University",
+            "url": ""
+        }
+    ],
+    "Publications": [
+        {
+            "_id": "7",
+            "category": "",
+            "title": "Two Hundred Years on The Road: The Term Balkan Peninsula (1808-2008)",
+            "book": "Etudes balkaniques",
+            "city": "Sofia",
+            "year": "2009/4",
+            "pages": "203-205"
+        },
+        {
+            "_id": "8",
+            "category": "",
+            "title": "Създаването на училището по геометрия Hendesehane в Юскюдарр 1734 г.",
+            "book": "Стандарти на всекидневието през Средновековието и Новото време",
+            "city": "Велико Търново",
+            "year": "2012",
+            "pages": "399-408"
+        },
+        {
+            "_id": "9",
+            "category": "",
+            "title": "Кариерата на двама французи военни съветници в Османската империя през 18 в. Граф Боневал и барон Дьо Тот",
+            "book": "Докторантски и постдокторантски четения",
+            "city": "София",
+            "year": "2012",
+            "pages": ""
+        },
+        {
+            "_id": "10",
+            "category": "",
+            "title": "Bulgarian Society for Eighteenth Century Studies",
+            "book": "Advances in Bulgarian Science",
+            "city": "Sofia",
+            "year": "2013",
+            "pages": "56-57"
+        },
+        {
+            "_id": "11",
+            "category": "",
+            "title": "Пиер Мишон, Дървено тяло (превод от френски, колектив)",
+            "book": "Панорама",
+            "city": "София",
+            "year": "2013/1",
+            "pages": "120-130"
+        },
+        {
+            "_id": "12",
+            "category": "",
+            "title": "„Картографирането“ на френската балканска политика. Френските военни съветници в Османската империя и техните карти, 1784-1788",
+            "book": "Двувековният път на едно понятие „Балканският полуостров“ (1808-2008)",
+            "city": "София",
+            "year": "2014",
+            "pages": "37-49"
+        },
+        {
+            "_id": "13",
+            "category": "",
+            "title": "Баланс на силите или политика на противоречие. Франция, Русия и Османската империя (съвместно с Цветелина Цветкова)",
+            "book": "Пловдивски исторически форум",
+            "city": "Пловдив",
+            "year": "2020",
+            "pages": ""
+        },
+        {
+            "_id": "14",
+            "category": "",
+            "title": "Military Reforms as a Diplomatic Bargaining Chip: French-Ottoman Relations at the End of the Eighteenth Century",
+            "book": "European Revolutions and the Ottoman Balkans Nationalism, Violence and Empire in the Long Nineteenth-Century, Editor: Dimitris Stamatopoulos",
+            "city": "Oxford",
+            "year": "2020",
+            "pages": ""
+        }
+    ],
+    "Roles": [
+        {
+            "_id": "",
+            "category": "",
+            "institution": "Sofia Univerity",
+            "imageURL": "",
+            "title:": "",
+            "role": "", 
+            "years": "",
+            "descrition": ""
+        },
+        {
+            "_id": "",
+            "category": "",
+            "institution": "INALCO",
+            "imageURL": "",
+            "title:": "",
+            "role": "", 
+            "years": "",
+            "descrition": ""
+        },
+        {
+            "_id": "",
+            "category": "",
+            "institution": "AUF",
+            "imageURL": "",
+            "title:": "",
+            "role": "", 
+            "years": "",
+            "descrition": ""
+        },
+        {
+            "_id": "",
+            "category": "",
+            "institution": "GUSEGG",
+            "imageURL": "",
+            "title:": "",
+            "role": "", 
+            "years": "",
+            "descrition": ""
+        },
+        {
+            "_id": "",
+            "category": "",
+            "institution": "America for Bulgaria Foundation",
+            "imageURL": "",
+            "title:": "",
+            "role": "", 
+            "years": "",
+            "descrition": ""
+        },
+        {
+            "_id": "",
+            "category": "",
+            "institution": "ARIT, Istanbul",
+            "imageURL": "",
+            "title:": "",
+            "role": "", 
+            "years": "",
+            "descrition": ""
+        },
+        {
+            "_id": "",
+            "category": "",
+            "institution": "SALT Galata",
+            "imageURL": "",
+            "title:": "",
+            "role": "", 
+            "years": "",
+            "descrition": ""
+        },
+        {
+            "_id": "",
+            "category": "",
+            "institution": "Collegium Historicum",
+            "imageURL": "",
+            "title:": "",
+            "role": "", 
+            "years": "",
+            "descrition": ""
+        },
+        {
+            "_id": "",
+            "category": "",
+            "institution": "Regional Studies Programm",
+            "imageURL": "",
+            "title:": "",
+            "role": "", 
+            "years": "",
+            "descrition": ""
+        },
+        {
+            "_id": "",
+            "category": "",
+            "institution": "Bulgarian Society for Eighteenth Century Studies",
+            "imageURL": "",
+            "title:": "",
+            "role": "", 
+            "years": "since 2010",
+            "descrition": ""
+        }
+    ]
+}
