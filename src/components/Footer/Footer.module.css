@@ -1,0 +1,26 @@
+.footer {
+    background-color: #8D3FD0;
+    color: #161B7F;
+    text-align: center;
+    margin: 0px;
+    padding: 5rem;
+}
+
+.footerContactInfo {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    color: #161B7F;
+    margin: 0px;
+    padding: 0px;
+    font-size: 3em;
+}
+
+.footerContactInfoItem {
+    padding: .3em;
+}
+
+.footerContactInfoItemLink {
+    text-decoration: none;
+    color: #161B7F;
+}
