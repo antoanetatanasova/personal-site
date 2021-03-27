@@ -1,5 +1,4 @@
 import style from './Studies.module.css';
-import { FaRegHeart, FaHeart } from 'react-icons/fa';
 
 const Study = ({ study }) => {
     return (

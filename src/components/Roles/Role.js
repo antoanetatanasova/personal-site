@@ -1,6 +1,4 @@
 import style from './Role.module.css';
-import { FaRegHeart, FaHeart } from 'react-icons/fa';
-import { getAllByTitle } from '@testing-library/dom';
 
 const Role = ({ role }) => {
     return (
