@@ -1,0 +1,31 @@
+.primaryNav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    color: white;
+    margin-right: 7rem;
+}
+
+.primaryNavItem {
+    padding: .5em;
+    font-size: 1.2em;
+}
+
+.primaryNavItem:hover {
+    cursor: pointer;
+    border-bottom: .1rem solid #ED3D63;
+}
+
+.primaryNavItem:last-child {
+    margin-left: 2em;
+    color: #8D3FD0;
+}
+
+.primaryNavItem:last-child:hover {
+    color: #ED3D63;
+    border-bottom: none;
+}
+
+i {
+    padding-right: .5em;
+}

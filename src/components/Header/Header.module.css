@@ -1,0 +1,10 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    background-color: #161B7F;
+    box-shadow: 3px 3px 14px 3px rgba(24, 23, 23, 0.3);
+    position: absolute;
+    width: 100%;
+    position: fixed;
+}
