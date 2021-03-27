@@ -5,6 +5,7 @@ import { FaUserSecret } from 'react-icons/fa'
 const Nav = () => {
     return (
         <ul className={style.primaryNav}>
+            <li className={style.primaryNavItem}><a href="/">Home</a></li>
             <li className={style.primaryNavItem}><a href="/research">Research</a></li>
             <li className={style.primaryNavItem}><a href="/publications">Publications</a></li>
             <li className={style.primaryNavItem}><a href="/roles">Roles</a></li>
