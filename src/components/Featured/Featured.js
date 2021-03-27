@@ -14,8 +14,8 @@ const Featured = () => {
             <div className={style.featuredWrapper}>
                 <h2 className={style.featuredMainTitle}>Military Reforms as a Diplomatic Bargaining Chip</h2>
                 <h3>French-Ottoman Relations at the End of the Eighteenth Century</h3>
-                <Button text="More Info" onClick={links.bloomsburyUrl} />
-                <Button text="Read it" onClick={links.googlebooksUrl} />
+                <a href={links.bloomsburyUrl}> <Button text="More Info" /></a>
+                <a href={links.googlebooksUrl}> <Button text="Read it" onClick={links.googlebooksUrl} /></a>
                 <h5>in: European Revolutions and the Ottoman Balkans Nationalism, Violence and Empire in the Long Nineteenth-Century, Editor: Dimitris Stamatopoulos</h5>
             </div >
         </article >
