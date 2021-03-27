@@ -1,8 +1,10 @@
+import Home from './../../components/Home/Home'
+
 const Main = () => {
     return (
-        <div>
-            
-        </div>
+        <main>
+            <Home />
+        </main>
     )
 }
 
