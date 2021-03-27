@@ -1,0 +1,24 @@
+.btn {
+    background-color: transparent;
+    margin-left: 2em;
+    border: .1rem solid #161B7F;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 12px;
+    color: #161B7F;
+    text-decoration: none;
+    padding: .75rem 1.2rem;
+    margin: 1rem;
+    display: inline-block;
+}
+
+i {
+    padding-right: .5em;
+}
+
+.btn:hover {
+    cursor: pointer;
+    border: .1rem solid #ED3D63;
+    color: #ED3D63;
+    /* box-shadow: 0px 0px 14px 0px rgba(24, 23, 23, 0.5); */
+}

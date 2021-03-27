@@ -1,4 +1,7 @@
 import style from './../../components/Featured/Featured.module.css'
+import { FaInfoCircle, FaBookReader }
+
+import Button from './../shared/Button';
 
 const Featured = () => {
 
@@ -12,8 +15,8 @@ const Featured = () => {
             <div className={style.featuredWrapper}>
                 <h2 className={style.featuredMainTitle}>Military Reforms as a Diplomatic Bargaining Chip</h2>
                 <h3>French-Ottoman Relations at the End of the Eighteenth Century</h3>
-                <a href={links.bloomsburyUrl}><button className="btn"><i class="fas fa-info-circle"></i>More Info</button></a>
-                <a href={links.googlebooksUrl}><button className="btn"><i class="fab fa-readme"></i>Read It</button></a>
+                <Button text="More Info" onClick={links.bloomsburyUrl} />
+                <Button text="Read it" onClick={links.googlebooksUrl} />
                 <h5>in: European Revolutions and the Ottoman Balkans Nationalism, Violence and Empire in the Long Nineteenth-Century, Editor: Dimitris Stamatopoulos</h5>
             </div >
         </article >
