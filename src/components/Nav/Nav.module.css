@@ -1,6 +1,7 @@
 .primaryNav {
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
     list-style: none;
     color: white;
     margin-right: 7rem;
@@ -8,7 +9,7 @@
 
 .primaryNavItem {
     padding: .5em;
-    font-size: 1.2em;
+    font-size: 1.2rem;;
 }
 
 .primaryNavItem:hover {
@@ -17,15 +18,11 @@
 }
 
 .primaryNavItem:last-child {
-    margin-left: 2em;
+    margin-left: 1.2rem;
     color: #8D3FD0;
 }
 
 .primaryNavItem:last-child:hover {
     color: #ED3D63;
     border-bottom: none;
-}
-
-i {
-    padding-right: .5em;
 }

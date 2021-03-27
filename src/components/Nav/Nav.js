@@ -8,7 +8,7 @@ const Nav = () => {
             <li className={style.primaryNavItem}>Research</li>
             <li className={style.primaryNavItem}>Publications</li>
             <li className={style.primaryNavItem}>Roles</li>
-            <li className={style.primaryNavItem}><FaUserSecret style={{fontSize: "2rem", margin: "0px"}} /></li>
+            <li className={style.primaryNavItem}><FaUserSecret style={{fontSize: "1.8rem", margin: "0px"}} /></li>
         </ul>
     )
 }
