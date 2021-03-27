@@ -5,10 +5,10 @@ import { FaUserSecret } from 'react-icons/fa'
 const Nav = () => {
     return (
         <ul className={style.primaryNav}>
-            <li className={style.primaryNavItem}>Research</li>
-            <li className={style.primaryNavItem}>Publications</li>
-            <li className={style.primaryNavItem}>Roles</li>
-            <li className={style.primaryNavItem}><FaUserSecret style={{fontSize: "1.8rem", margin: "0px"}} /></li>
+            <li className={style.primaryNavItem}><a href="/research">Research</a></li>
+            <li className={style.primaryNavItem}><a href="/publications">Publications</a></li>
+            <li className={style.primaryNavItem}><a href="/roles">Roles</a></li>
+            <a href="/secret-zone"><li className={style.primaryNavItem}><FaUserSecret style={{fontSize: "1.8rem", margin: "0px"}} /></li></a>
         </ul>
     )
 }

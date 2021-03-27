@@ -7,13 +7,9 @@
     border-radius: 12px;
     color: #161B7F;
     text-decoration: none;
-    padding: .75rem 1.2rem;
+    padding: .4rem 1.2rem;
     margin: 1rem;
     display: inline-block;
-}
-
-i {
-    padding-right: .5em;
 }
 
 .btn:hover {

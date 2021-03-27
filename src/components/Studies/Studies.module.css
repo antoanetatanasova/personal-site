@@ -1,0 +1,14 @@
+.studies{
+    margin: 0px;
+    padding: 7.1rem;
+}
+
+.study {
+    border-bottom: 1px solid rgba(22, 27, 127, .4);
+    padding-bottom: 2rem;
+}
+
+
+.studiesPageTitle {
+    color: #8D3FD0;
+}

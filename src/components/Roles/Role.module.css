@@ -1,0 +1,26 @@
+.roles {
+    margin: 0px;
+    padding: 7.1rem;
+}
+
+.role {
+    border-bottom: 1px solid rgba(22, 27, 127, .4);
+    padding-bottom: 2rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 200px;
+}
+
+.logoWrapper {
+    text-align: center;
+    margin: 4rem;
+    border: 1px solid #0683D7;
+}
+
+.rolesPageTitle {
+    color: #8D3FD0;
+}

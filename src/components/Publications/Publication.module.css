@@ -1,0 +1,22 @@
+.publications{
+    margin: 0px;
+    padding: 7.1rem;
+}
+
+.publication {
+    border-bottom: 1px solid rgba(22, 27, 127, .4);
+    padding-bottom: 2rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.likeWrapper {
+    width: 15%;
+    text-align: right;
+    color: #8D3FD0;
+}
+
+.publicationsPageTitle {
+    color: #8D3FD0;
+}
