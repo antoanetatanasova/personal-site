@@ -1,5 +1,4 @@
 import style from './../../components/Featured/Featured.module.css'
-import { FaInfoCircle, FaBookReader }
 
 import Button from './../shared/Button';
 
