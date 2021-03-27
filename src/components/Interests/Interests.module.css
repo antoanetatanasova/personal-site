@@ -1,0 +1,32 @@
+.interests {
+    width: 80%;
+    margin: 0px auto;
+    padding: 4rem 0px;
+}
+
+.interestsList {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.interestsListItem {
+    width: 31%;
+    border: .1rem solid #ED3D63;
+    border-radius: 12px;
+}
+
+.interestsListItem h4 {
+    margin: 0px;
+    padding: .3rem;
+    background-color: #ED3D63;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.interestsListItem p {
+    padding: 1rem;
+}
