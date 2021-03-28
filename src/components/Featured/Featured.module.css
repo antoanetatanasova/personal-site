@@ -1,5 +1,6 @@
 .featured {
-    background: linear-gradient(rgba(22, 27, 127, .4), rgba(22, 27, 127, .7)), url('./../../images/A_New_Accurate_Map_of__..._Bell_Peter.jpg');
+    height: 100vh;
+    background: linear-gradient(rgba(22, 27, 127, .2), rgba(22, 27, 127, .7)), url('./../../images/A_New_Accurate_Map_of__..._Bell_Peter.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 0px;
@@ -36,4 +37,5 @@
 
 .featuredMainTitle {
     text-transform: uppercase;
+    color: #ED3D63;
 }
