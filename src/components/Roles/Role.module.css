@@ -4,8 +4,12 @@
 }
 
 .role {
+    background-color: lightgrey;
     border-bottom: 1px solid rgba(22, 27, 127, .4);
-    padding-bottom: 2rem;
+    border-radius: 12px;
+    box-shadow: 4px 4px 17px 0px rgba(0, 0, 0, .75);
+    margin: 2rem;
+    padding: 2.5rem;
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
@@ -23,4 +27,15 @@
 
 .rolesPageTitle {
     color: #8D3FD0;
+    padding-left: 2.5rem;
+}
+
+.roleTitleWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.roleActionsWrapper {
+    color: #223CCF;
 }

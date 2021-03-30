@@ -7,13 +7,13 @@ const Publication = ({ publication }) => {
             <div className={style.publicationWrapper}>
                 <h3>
                     {publication.title},
-                </h3>
+                    </h3>
                 <p>
                     {publication.book}, {publication.city}, {publication.year}, {publication.pages}.
                 </p>
             </div>
             <div className={style.likeWrapper}>
-                <FaRegHeart /><FaHeart /> 2 liked this
+                <FaRegHeart /> <FaHeart /> 2 liked this
             </div>
         </article>
     )

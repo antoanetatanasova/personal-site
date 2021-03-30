@@ -1,4 +1,4 @@
-import style from './Logo.module.css'
+import style from './Logo.module.css';
 
 const Logo = () => {
     const siteTitle = "Antoaneta Atanasova";
@@ -10,4 +10,4 @@ const Logo = () => {
     );
 }
 
-export default Logo
+export default Logo;
