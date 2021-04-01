@@ -4,6 +4,7 @@ import StudiesPage from "./../Studies/StudiesPage";
 import PublicationsPage from "./../Publications/PublicationsPage";
 import RolesPage from "./../Roles/RolesPage";
 import Quiz from './../Quiz/Quiz';
+import AddPublication from './../Publications/AddPublication';
 
 
 const Main = () => {
@@ -11,7 +12,8 @@ const Main = () => {
         <main>
             <Route path='/' exact component={Home} />
             <Route path='/research' component={StudiesPage} />
-            <Route path='/publications' component={PublicationsPage} />
+            <Route path='/publications' exact component={PublicationsPage} />
+            <Route path='/publications/add' component={AddPublication} />
             <Route path='/roles' component={RolesPage} />
             <Route path='/secret-zone' component={Quiz} />
         </main>

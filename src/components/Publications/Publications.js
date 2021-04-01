@@ -6,7 +6,10 @@ const Publications = ({ publications }) => {
     return (
         <section className={style.publications}>
             <h2 className={style.publicationsPageTitle}>
-                Publications <FaPlusCircle />
+                Publications
+                <span >
+                    <a href="/publications/add" style={{color:"#8D3FD0"}}><FaPlusCircle className={style.plusButton} /></a>
+                </span>
             </h2>
             {publications.map((publication, index) => (<
                 Publication
