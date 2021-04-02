@@ -1,227 +1,281 @@
 {
-  "featured" : [
-      {
-          "_id": "0",
-          "title": "Military Reforms as a Diplomatic Bargaining Chip",
-          "subtitle": "French-Ottoman Relations at the End of the Eighteenth Century",
-          "book": "in: European Revolutions and the Ottoman Balkans Nationalism, Violence and Empire in the Long Nineteenth-Century, Editor: Dimitris Stamatopoulos",
-          "moreInfoLink": "https://www.bloomsbury.com/uk/european-revolutions-and-the-ottoman-balkans-9780755603282/",
-          "readLink": "https://books.google.bg/books?hl=en&lr=&id=wWjDDwAAQBAJ&oi=fnd&pg=PA65&ots=MAUAUK229u&sig=XpWo7E4YHIgI1MMlnKe_KWHZk_0&redir_esc=y#v=onepage&q&f=false"
-      }
-
+  "featured": [
+    {
+      "id": "0",
+      "title": "Military Reforms as a Diplomatic Bargaining Chip",
+      "subtitle": "French-Ottoman Relations at the End of the Eighteenth Century",
+      "book": "in: European Revolutions and the Ottoman Balkans Nationalism, Violence and Empire in the Long Nineteenth-Century, Editor: Dimitris Stamatopoulos",
+      "moreInfoLink": "https://www.bloomsbury.com/uk/european-revolutions-and-the-ottoman-balkans-9780755603282/",
+      "readLink": "https://books.google.bg/books?hl=en&lr=&id=wWjDDwAAQBAJ&oi=fnd&pg=PA65&ots=MAUAUK229u&sig=XpWo7E4YHIgI1MMlnKe_KWHZk_0&redir_esc=y#v=onepage&q&f=false"
+    }
   ],
   "interests": [
-      {
-          "_id": "1",
-          "title": "History",
-          "description": "My major research interests are directed towards the history of the European Southeast, the European-Ottoman relations in the modern era. How the new technologies affected the diplomacy and how the political interests pushed the europeization and the modernization processes in the region."
-      },
-      {
-          "_id": "2",
-          "title": "Translation Studies",
-          "description": "In my attempts to explain how the “untranslatability” can be translated, I found an abundance of examples in the Bulgarian litterature, such as characters, historical events, cultural, political and social elements, for which is difficult to find right equivalences in any other language. A recent project of mine covers the French translation of the Ottoman realia and the turcisms."
-      },
-      {
-          "_id": "3",
-          "title": "Translation",
-          "description": "I take pride in being a published translator. In 2013 I took part in translating a section of Pierre Michon's book Corps du roi. My prefered language pair is French-Bulgarian."
-      }
+    {
+      "id": "1",
+      "title": "History",
+      "description": "My major research interests are directed towards the history of the European Southeast, the European-Ottoman relations in the modern era. How the new technologies affected the diplomacy and how the political interests pushed the europeization and the modernization processes in the region."
+    },
+    {
+      "id": "2",
+      "title": "Translation Studies",
+      "description": "In my attempts to explain how the “untranslatability” can be translated, I found an abundance of examples in the Bulgarian litterature, such as characters, historical events, cultural, political and social elements, for which is difficult to find right equivalences in any other language. A recent project of mine covers the French translation of the Ottoman realia and the turcisms."
+    },
+    {
+      "id": "3",
+      "title": "Translation",
+      "description": "I take pride in being a published translator. In 2013 I took part in translating a section of Pierre Michon's book Corps du roi. My prefered language pair is French-Bulgarian."
+    }
   ],
-
   "profile": [
-      {
-          "_id": "4",
-          "imageURL": "https://res.cloudinary.com/the-potential/image/upload/v1615903169/personal-site/antoinette_ezrg3f.jpg",
-          "description": "Hi, my name is Antoaneta. I was born in Sofia, but at some point of my live I had the opportunity to live in two of the most intriguing cities of the world: Paris and Istanbul. I started my nomadic life lead by the desire to read more than enyone else in the world and even to read what no-one has read before me. This dream was fully accomplished when in 2015 I worked on creating the inventory of the Archive of the American Board of Missions. At that time I was the first one who opened some of the documents, forgotten long ago."
-      }
+    {
+      "id": "4",
+      "imageURL": "https://res.cloudinary.com/the-potential/image/upload/v1615903169/personal-site/antoinette_ezrg3f.jpg",
+      "description": "Hi, my name is Antoaneta. I was born in Sofia, but at some point of my live I had the opportunity to live in two of the most intriguing cities of the world: Paris and Istanbul. I started my nomadic life lead by the desire to read more than enyone else in the world and even to read what no-one has read before me. This dream was fully accomplished when in 2015 I worked on creating the inventory of the Archive of the American Board of Missions. At that time I was the first one who opened some of the documents, forgotten long ago."
+    }
   ],
   "research": [
-      {
-          "_id": "5",
-          "category": "History",
-          "title": "Army Advisors and Diplomacy. French-Ottoman Relations in the Eighteen Centiry",
-          "description": "Innovations to the Ottoman army based on the European model began in earnest in the eighteenth and nineteenth centuries when the Ottoman Empire began to concede defeats to its rivals. On the other hand, bringing military technologies to the Oriental capital became a means of helping to realize political interests. In this game, France played an important role, although this was not without effort. To induce an Ottoman intervention in international affairs, the French diplomats used a range of methods, including proposals to send military missions to the sultan. Those french military missions were the main focus of my PhD thesis research (defended on 21 May 2015). This research was highly honoured and it was granted with numerous prestigous scholarships and grants.",
-          "honours": [
-              "ARCS Bulgarian Scholars Program for research in Turkey (2013 - American Research Center in Sofia and the America for Bulgaria​ Foundation)",
-              "Grant for Dissertation Research in Paris, France (2010 - Collegium Historicum)",
-              "Scholarship for Doctoral studies in the framework of a co-directorship (2011-2013 - AUF)"
-          ],
-          "url": "https://www.uni-sofia.bg/index.php/bul/universitet_t/fakulteti/istoricheski_fakultet/obrazovatelna_dejnost/doktoranti/pridobivane_na_obrazovatelna_i_nauchna_stepen_doktor/arhiv/antoaneta_vasileva_petkova_istoricheski_fakultet"
-      },
-      {
-          "_id": "6",
-          "category": "History",
-          "title": "American Missionaries in Southeast Europe",
-          "description": "In 2015 in Istanbul (Turkey) I was part of a team that worked on the digitalization of the Archives of the American Board of Missions. American missionaries began their work in this region in the 1830's. The missions extended from the Balkans, across Turkey to the easternmost provinces and south to northern Syria. The Archives of American Board of Missions, containing historical and eyewitness accounts from the far-flung mission stations, were entrusted to ARIT in 2010 to preserve and make available to scholars in the United States and Turkey, and around the world. ARIT entered into an agreement with the SALT Research Center in 2011 to digitize and put up on the Web this large and immensely rich collection. The archives are currently in storage at SALT and being catalogued, and are not physically accessible. However, 18% of the archives have now been put on line in full text, and can be accessed through the ARIT-Istanbul Digital Library at DLIR, or through the host site at SALT Research. The project is ongoing and new material is put up at regular intervals.",
-          "url": "http://dlir.org/about-arit-i-digital-library.html"
-      },
-      {
-          "_id": "7",
-          "category": "Translation Studies",
-          "title": "The Koreen Novel Stingray by Kim Joo-Young",
-          "description": "Kim Joo-young is a South Korean writer of historical fiction. His characters and figures are very bright and the novel Stingray is among his award-winning pieces. It starts as a tradition, but at the end it breaks all the traditions. In 2008 my essay inspired by this novel received an award by the Korea Literature Translation Institute.",
-          "honours": [
-              "Korean Literature Essay Award (2008 - issuerDepartment of Korean studies (Sofia University) and Korea Literature Translation Institute (KLTI))"
-          ],
-          "url": "https://www.ktlit.com/review-of-stingray-by-kim-joo-young-%ea%b9%80%ec%a3%bc%ec%98%81/"
-      },
-      {
-          "_id": "8" ,
-          "category": "Translation Studies",
-          "title": "The Translation of Ottoman Realia in the Bulgarian Novel The Djem Affair by Vera Moutaftchieva",
-          "description": "The Ottoman realia are largely used in the novel The Djem Affair (Vera Moutaftchieva). This research takes a deeper look into the strategies used in the French translation of these realia in Claude Guilhot’s version of the novel. Do these strategies give a just picture of the text? Is the desired effect achieved in the French audience? The following article is looking for the answers.",
-          "url": ""
-      }
+    {
+      "id": "5",
+      "category": "History",
+      "title": "Army Advisors and Diplomacy. French-Ottoman Relations in the Eighteen Centiry",
+      "description": "Innovations to the Ottoman army based on the European model began in earnest in the eighteenth and nineteenth centuries when the Ottoman Empire began to concede defeats to its rivals. On the other hand, bringing military technologies to the Oriental capital became a means of helping to realize political interests. In this game, France played an important role, although this was not without effort. To induce an Ottoman intervention in international affairs, the French diplomats used a range of methods, including proposals to send military missions to the sultan. Those french military missions were the main focus of my PhD thesis research (defended on 21 May 2015). This research was highly honoured and it was granted with numerous prestigous scholarships and grants.",
+      "honours": [
+        "ARCS Bulgarian Scholars Program for research in Turkey (2013 - American Research Center in Sofia and the America for Bulgaria​ Foundation)",
+        "Grant for Dissertation Research in Paris, France (2010 - Collegium Historicum)",
+        "Scholarship for Doctoral studies in the framework of a co-directorship (2011-2013 - AUF)"
+      ],
+      "url": "https://www.uni-sofia.bg/index.php/bul/universitet_t/fakulteti/istoricheski_fakultet/obrazovatelna_dejnost/doktoranti/pridobivane_na_obrazovatelna_i_nauchna_stepen_doktor/arhiv/antoaneta_vasileva_petkova_istoricheski_fakultet"
+    },
+    {
+      "id": "6",
+      "category": "History",
+      "title": "American Missionaries in Southeast Europe",
+      "description": "In 2015 in Istanbul (Turkey) I was part of a team that worked on the digitalization of the Archives of the American Board of Missions. American missionaries began their work in this region in the 1830's. The missions extended from the Balkans, across Turkey to the easternmost provinces and south to northern Syria. The Archives of American Board of Missions, containing historical and eyewitness accounts from the far-flung mission stations, were entrusted to ARIT in 2010 to preserve and make available to scholars in the United States and Turkey, and around the world. ARIT entered into an agreement with the SALT Research Center in 2011 to digitize and put up on the Web this large and immensely rich collection. The archives are currently in storage at SALT and being catalogued, and are not physically accessible. However, 18% of the archives have now been put on line in full text, and can be accessed through the ARIT-Istanbul Digital Library at DLIR, or through the host site at SALT Research. The project is ongoing and new material is put up at regular intervals.",
+      "url": "http://dlir.org/about-arit-i-digital-library.html"
+    },
+    {
+      "id": "7",
+      "category": "Translation Studies",
+      "title": "The Koreen Novel Stingray by Kim Joo-Young",
+      "description": "Kim Joo-young is a South Korean writer of historical fiction. His characters and figures are very bright and the novel Stingray is among his award-winning pieces. It starts as a tradition, but at the end it breaks all the traditions. In 2008 my essay inspired by this novel received an award by the Korea Literature Translation Institute.",
+      "honours": [
+        "Korean Literature Essay Award (2008 - issuerDepartment of Korean studies (Sofia University) and Korea Literature Translation Institute (KLTI))"
+      ],
+      "url": "https://www.ktlit.com/review-of-stingray-by-kim-joo-young-%ea%b9%80%ec%a3%bc%ec%98%81/"
+    },
+    {
+      "id": "8",
+      "category": "Translation Studies",
+      "title": "The Translation of Ottoman Realia in the Bulgarian Novel The Djem Affair by Vera Moutaftchieva",
+      "description": "The Ottoman realia are largely used in the novel The Djem Affair (Vera Moutaftchieva). This research takes a deeper look into the strategies used in the French translation of these realia in Claude Guilhot’s version of the novel. Do these strategies give a just picture of the text? Is the desired effect achieved in the French audience? The following article is looking for the answers.",
+      "url": ""
+    }
   ],
   "publications": [
-      {
-          "_id": "9",
-          "category": "",
-          "title": "Two Hundred Years on The Road: The Term Balkan Peninsula (1808-2008)",
-          "book": "Etudes balkaniques",
-          "city": "Sofia",
-          "year": "2009/4",
-          "pages": "203-205"
-      },
-      {
-          "_id": "10",
-          "category": "",
-          "title": "Създаването на училището по геометрия Hendesehane в Юскюдарр 1734 г.",
-          "book": "Стандарти на всекидневието през Средновековието и Новото време",
-          "city": "Велико Търново",
-          "year": "2012",
-          "pages": "399-408"
-      },
-      {
-          "_id": "11",
-          "category": "",
-          "title": "Кариерата на двама французи военни съветници в Османската империя през 18 в. Граф Боневал и барон Дьо Тот",
-          "book": "Докторантски и постдокторантски четения",
-          "city": "София",
-          "year": "2012",
-          "pages": ""
-      },
-      {
-          "_id": "12",
-          "category": "",
-          "title": "Bulgarian Society for Eighteenth Century Studies",
-          "book": "Advances in Bulgarian Science",
-          "city": "Sofia",
-          "year": "2013",
-          "pages": "56-57"
-      },
-      {
-          "_id": "13",
-          "category": "",
-          "title": "Пиер Мишон, Дървено тяло (превод от френски, колектив)",
-          "book": "Панорама",
-          "city": "София",
-          "year": "2013/1",
-          "pages": "120-130"
-      },
-      {
-          "_id": "14",
-          "category": "",
-          "title": "„Картографирането“ на френската балканска политика. Френските военни съветници в Османската империя и техните карти, 1784-1788",
-          "book": "Двувековният път на едно понятие „Балканският полуостров“ (1808-2008)",
-          "city": "София",
-          "year": "2014",
-          "pages": "37-49"
-      },
-      {
-          "_id": "15",
-          "category": "",
-          "title": "ARIT and the Archives of the A.B.C.F.M. – an Important Source for Key Episodes in Bulgarian History (with Tsvetelina Tsvetkova)",
-          "book": "Advances in Bulgarian Science",
-          "city": "Sofia",
-          "year": "2015",
-          "pages": "67-74"
-      },
-      {
-          "_id": "16",
-          "category": "",
-          "title": "Баланс на силите или политика на противоречие. Франция, Русия и Османската империя (съвместно с Цветелина Цветкова)",
-          "book": "Пловдивски исторически форум",
-          "city": "Пловдив",
-          "year": "2020",
-          "pages": ""
-      },
-      {
-          "_id": "17",
-          "category": "",
-          "title": "Military Reforms as a Diplomatic Bargaining Chip: French-Ottoman Relations at the End of the Eighteenth Century",
-          "book": "European Revolutions and the Ottoman Balkans Nationalism, Violence and Empire in the Long Nineteenth-Century, Editor: Dimitris Stamatopoulos",
-          "city": "Oxford",
-          "year": "2020",
-          "pages": "65-92"
-      }
+    {
+      "id": "9",
+      "category": "",
+      "title": "Two Hundred Years on The Road: The Term Balkan Peninsula (1808-2008)",
+      "book": "Etudes balkaniques",
+      "city": "Sofia",
+      "year": "2009/4",
+      "pages": "203-205"
+    },
+    {
+      "id": "10",
+      "category": "",
+      "title": "Създаването на училището по геометрия Hendesehane в Юскюдарр 1734 г.",
+      "book": "Стандарти на всекидневието през Средновековието и Новото време",
+      "city": "Велико Търново",
+      "year": "2012",
+      "pages": "399-408"
+    },
+    {
+      "id": "11",
+      "category": "",
+      "title": "Кариерата на двама французи военни съветници в Османската империя през 18 в. Граф Боневал и барон Дьо Тот",
+      "book": "Докторантски и постдокторантски четения",
+      "city": "София",
+      "year": "2012",
+      "pages": ""
+    },
+    {
+      "id": "12",
+      "category": "",
+      "title": "Bulgarian Society for Eighteenth Century Studies",
+      "book": "Advances in Bulgarian Science",
+      "city": "Sofia",
+      "year": "2013",
+      "pages": "56-57"
+    },
+    {
+      "id": "13",
+      "category": "",
+      "title": "Пиер Мишон, Дървено тяло (превод от френски, колектив)",
+      "book": "Панорама",
+      "city": "София",
+      "year": "2013/1",
+      "pages": "120-130"
+    },
+    {
+      "id": "14",
+      "category": "",
+      "title": "„Картографирането“ на френската балканска политика. Френските военни съветници в Османската империя и техните карти, 1784-1788",
+      "book": "Двувековният път на едно понятие „Балканският полуостров“ (1808-2008)",
+      "city": "София",
+      "year": "2014",
+      "pages": "37-49"
+    },
+    {
+      "id": "15",
+      "category": "",
+      "title": "ARIT and the Archives of the A.B.C.F.M. – an Important Source for Key Episodes in Bulgarian History (with Tsvetelina Tsvetkova)",
+      "book": "Advances in Bulgarian Science",
+      "city": "Sofia",
+      "year": "2015",
+      "pages": "67-74"
+    },
+    {
+      "id": "16",
+      "category": "",
+      "title": "Баланс на силите или политика на противоречие. Франция, Русия и Османската империя (съвместно с Цветелина Цветкова)",
+      "book": "Пловдивски исторически форум",
+      "city": "Пловдив",
+      "year": "2020",
+      "pages": ""
+    },
+    {
+      "id": "17",
+      "category": "",
+      "title": "Military Reforms as a Diplomatic Bargaining Chip: French-Ottoman Relations at the End of the Eighteenth Century",
+      "book": "European Revolutions and the Ottoman Balkans Nationalism, Violence and Empire in the Long Nineteenth-Century, Editor: Dimitris Stamatopoulos",
+      "city": "Oxford",
+      "year": "2020",
+      "pages": "65-92"
+    },
+    {
+      "title": "1",
+      "book": "",
+      "city": "",
+      "year": "",
+      "pages": "",
+      "id": "xk5B6dD"
+    },
+    {
+      "title": "Test",
+      "book": "Test",
+      "city": "Sofia",
+      "year": "2021",
+      "pages": "0-01",
+      "id": "PeTwPEs"
+    },
+    {
+      "title": "1",
+      "book": "",
+      "city": "",
+      "year": "",
+      "pages": "",
+      "id": "X1s2qm0"
+    },
+    {
+      "title": "1",
+      "book": "",
+      "city": "",
+      "year": "",
+      "pages": "",
+      "id": "wzBTqmO"
+    },
+    {
+      "title": "3",
+      "book": "",
+      "city": "",
+      "year": "",
+      "pages": "",
+      "id": "IG0yHv5"
+    },
+    {
+      "title": "4",
+      "book": "",
+      "city": "",
+      "year": "",
+      "pages": "",
+      "id": "6O61beS"
+    },
+    {
+      "title": "5",
+      "book": "",
+      "city": "",
+      "year": "",
+      "pages": "",
+      "id": "weuLka4"
+    }
   ],
   "roles": [
-      {
-          "_id": "18",
-          "category": "",
-          "institution": "SALT Galata",
-          "url": "https://saltonline.org/",
-          "imageURL": "https://res.cloudinary.com/the-potential/image/upload/v1616855887/personal-site/SALT_ry1esn.png",
-          "title:": "",
-          "role": "Archivist", 
-          "years": "2015",
-          "description": "SALT explores critical and timely issues in visual and material culture, and cultivates innovative programs for research and experimental thinking. Assuming an open attitude and establishing itself as a site of learning and debate SALT aims to challenge, excite and provoke its visitors by encouraging them to offer critique and response."
-      },
-      {
-          "_id": "19",
-          "category": "",
-          "institution": "ARIT, Istanbul",
-          "url": "http://ccat.sas.upenn.edu/ARIT/index.html",
-          "imageURL": "https://res.cloudinary.com/the-potential/image/upload/v1616855886/personal-site/ARIT_yaqjkn.jpg",
-          "title:": "",
-          "role": "Scholar", 
-          "years": "2013 and 2015",
-          "description": "The American Research Institute in Turkey (ARIT) is a non-profit educational institution dedicated to promoting North American and Turkish research and exchanges related to Turkey in all fields of the humanities and social sciences. ARIT provides support for these aims by maintaining research centers and libraries in Istanbul and Ankara, and administering fellowship programs to support research in Turkey at doctoral and advanced research levels."
-      },
-      {
-          "_id": "20",
-          "category": "",
-          "institution": "Bulgarian Society for Eighteenth Century Studies",
-          "url": "http://bulgc18.com/?lang=en",
-          "imageURL": "https://res.cloudinary.com/the-potential/image/upload/v1616855886/personal-site/bulg18c_nmv5ys.jpg",
-          "title:": "",
-          "role": "Member", 
-          "years": "since 2010",
-          "description": "Bulgarian Society for Eighteenth-Century Studies was founded in 1992 in Sofia. The Society promotes studies of eighteenth-century history and culture in Bulgarian, Balkan and European context. Supports international co-operation and networking. Organizes interdisciplinary conferences and publishes collected articles."
-      },
-      {
-          "_id": "21",
-          "category": "",
-          "institution": "Sofia Univerity",
-          "url": "https://www.uni-sofia.bg/",
-          "imageURL": "https://res.cloudinary.com/the-potential/image/upload/v1616855887/personal-site/logo-su-eng-horizontal_orig_1_zt4jbb.png",
-          "title:": "",
-          "role": "Student and PhD Candidate", 
-          "years": "2004-2015",
-          "description": "Sofia University St. Kliment Ohridski is the main national high academic, research, cultural and information center of high international reputation. The University has the mision to safeguard, enrich and carry through the centuries the spirit of knowledge and the aspirations of humanity to knowledge and truth. The University is the center of the development of science and the education of students in all domains of life; it also cultivates highly educated, nationally responsible personalities who will lead the Bulgarian nation to spiritual feats and social welfare."
-      },
-      {
-          "_id": "22",
-          "category": "",
-          "institution": "INALCO",
-          "url": "http://www.inalco.fr/",
-          "imageURL": "https://res.cloudinary.com/the-potential/image/upload/v1616855886/personal-site/Iql25OUJ_mvjtfh.jpg",
-          "title:": "",
-          "role": "PhD Student", 
-          "years": "2011-2013",
-          "description": "Over the centuries, Inalco has become a unique world institution, teaching languages from Central Europe to Africa and from Asia to America via Oceania. There is no other institution in the world that offers such a diversity of courses or wealth of opportunities and knowledge in one place."
-      },
-      {
-          "_id": "23",
-          "category": "",
-          "institution": "GUSEGG",
-          "url": "https://international.uni-graz.at/en/summerschools/graz-international-summer-school-seggau/",
-          "imageURL": "https://res.cloudinary.com/the-potential/image/upload/v1616855886/personal-site/images_xsv4nn.jpg",
-          "title:": "",
-          "role": "Participant", 
-          "years": "2013",
-          "description": "The Graz International Summer School Seggau is designed for internationally oriented, highly motivated students from all disciplines, who wish to deepen their understanding of current European and international affairs by studying and discussing global developments and challenges within the context of transformation processes and demographic change reflecting aspects of individual, social, political, religious, cultural, literary, regional, economic, cohort and national identities."
-      }
+    {
+      "id": "18",
+      "category": "",
+      "institution": "SALT Galata",
+      "url": "https://saltonline.org/",
+      "imageURL": "https://res.cloudinary.com/the-potential/image/upload/v1616855887/personal-site/SALT_ry1esn.png",
+      "title:": "",
+      "role": "Archivist",
+      "years": "2015",
+      "description": "SALT explores critical and timely issues in visual and material culture, and cultivates innovative programs for research and experimental thinking. Assuming an open attitude and establishing itself as a site of learning and debate SALT aims to challenge, excite and provoke its visitors by encouraging them to offer critique and response."
+    },
+    {
+      "id": "19",
+      "category": "",
+      "institution": "ARIT, Istanbul",
+      "url": "http://ccat.sas.upenn.edu/ARIT/index.html",
+      "imageURL": "https://res.cloudinary.com/the-potential/image/upload/v1616855886/personal-site/ARIT_yaqjkn.jpg",
+      "title:": "",
+      "role": "Scholar",
+      "years": "2013 and 2015",
+      "description": "The American Research Institute in Turkey (ARIT) is a non-profit educational institution dedicated to promoting North American and Turkish research and exchanges related to Turkey in all fields of the humanities and social sciences. ARIT provides support for these aims by maintaining research centers and libraries in Istanbul and Ankara, and administering fellowship programs to support research in Turkey at doctoral and advanced research levels."
+    },
+    {
+      "id": "20",
+      "category": "",
+      "institution": "Bulgarian Society for Eighteenth Century Studies",
+      "url": "http://bulgc18.com/?lang=en",
+      "imageURL": "https://res.cloudinary.com/the-potential/image/upload/v1616855886/personal-site/bulg18c_nmv5ys.jpg",
+      "title:": "",
+      "role": "Member",
+      "years": "since 2010",
+      "description": "Bulgarian Society for Eighteenth-Century Studies was founded in 1992 in Sofia. The Society promotes studies of eighteenth-century history and culture in Bulgarian, Balkan and European context. Supports international co-operation and networking. Organizes interdisciplinary conferences and publishes collected articles."
+    },
+    {
+      "id": "21",
+      "category": "",
+      "institution": "Sofia Univerity",
+      "url": "https://www.uni-sofia.bg/",
+      "imageURL": "https://res.cloudinary.com/the-potential/image/upload/v1616855887/personal-site/logo-su-eng-horizontal_orig_1_zt4jbb.png",
+      "title:": "",
+      "role": "Student and PhD Candidate",
+      "years": "2004-2015",
+      "description": "Sofia University St. Kliment Ohridski is the main national high academic, research, cultural and information center of high international reputation. The University has the mision to safeguard, enrich and carry through the centuries the spirit of knowledge and the aspirations of humanity to knowledge and truth. The University is the center of the development of science and the education of students in all domains of life; it also cultivates highly educated, nationally responsible personalities who will lead the Bulgarian nation to spiritual feats and social welfare."
+    },
+    {
+      "id": "22",
+      "category": "",
+      "institution": "INALCO",
+      "url": "http://www.inalco.fr/",
+      "imageURL": "https://res.cloudinary.com/the-potential/image/upload/v1616855886/personal-site/Iql25OUJ_mvjtfh.jpg",
+      "title:": "",
+      "role": "PhD Student",
+      "years": "2011-2013",
+      "description": "Over the centuries, Inalco has become a unique world institution, teaching languages from Central Europe to Africa and from Asia to America via Oceania. There is no other institution in the world that offers such a diversity of courses or wealth of opportunities and knowledge in one place."
+    },
+    {
+      "id": "23",
+      "category": "",
+      "institution": "GUSEGG",
+      "url": "https://international.uni-graz.at/en/summerschools/graz-international-summer-school-seggau/",
+      "imageURL": "https://res.cloudinary.com/the-potential/image/upload/v1616855886/personal-site/images_xsv4nn.jpg",
+      "title:": "",
+      "role": "Participant",
+      "years": "2013",
+      "description": "The Graz International Summer School Seggau is designed for internationally oriented, highly motivated students from all disciplines, who wish to deepen their understanding of current European and international affairs by studying and discussing global developments and challenges within the context of transformation processes and demographic change reflecting aspects of individual, social, political, religious, cultural, literary, regional, economic, cohort and national identities."
+    }
   ]
 }

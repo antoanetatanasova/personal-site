@@ -21,4 +21,4 @@ const Publications = ({ publications }) => {
     )
 }
 
-export default Publications
+export default Publications;
