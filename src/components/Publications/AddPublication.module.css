@@ -27,21 +27,3 @@
     display: flex;
     justify-content: space-between;
 }
-
-.submitBtn {
-    width: 100%;
-    font-size: 16px;
-    color: #ffffff;
-    background-color: transparent;
-    border-radius: 15px;
-    display: flex;
-    padding: 5px;
-    justify-content: flex-start;
-    align-items: center;
-    border: 5px solid #0683D7;
-    cursor: pointer;
-}
-
-.submitBtn:hover {
-    background-color: rgba(6, 131, 215, .4);
-}

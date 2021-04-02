@@ -20,10 +20,10 @@ const AddPublicationsPage = () => {
         const data = await res.json();
         setPublications([...publications, data]);
 
-        const id = Math.floor(Math.random() * 10000) + 1;
-        const newPublication = { id, ...publication };
-        setPublications([...publications, newPublication]);
-        console.log(publication);
+        // const id = Math.floor(Math.random() * 10000) + 1;
+        // const newPublication = { id, ...publication };
+        // setPublications([...publications, newPublication]);
+        // console.log(publication);
     }
 
     return (

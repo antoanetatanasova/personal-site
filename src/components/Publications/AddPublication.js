@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Button from '../shared/Button';
 import style from './AddPublication.module.css'
 
 const AddPublication = ({ onAdd }) => {
@@ -27,7 +28,7 @@ const AddPublication = ({ onAdd }) => {
         <section className={style.formWrapper}>
 
             <form className={style.form} onSubmit={onSubmit}>
-                <h2>Add New Publication</h2>
+                <h2 style={{"text-align": "center"}}>New Publication</h2>
                 <div className={style.input}>
                     <label>Title</label>
                     <input
@@ -68,7 +69,8 @@ const AddPublication = ({ onAdd }) => {
                         value={pages}
                         onChange={(e) => setPages(e.target.value)} />
                 </div>
-                <input type="submit" value='Save Publication' className={style.submitBtn} />
+                <Button text="Save Publication" />
+                {/* <input type="submit" value='Save Publication' className={style.submitBtn} /> */}
             </form>
         </section>
     )
