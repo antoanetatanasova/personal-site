@@ -60,8 +60,7 @@ const PublicationsPage = () => {
     <div className="publications">
       {/* <Publications publications={publications} /> */}
       {showAddPublication && <AddPublication onAdd={addPublication} />}
-      {publications.length > 0 ? <Publications publications={publications} onDelete=
-        {deletePublication} /> : 'No Publications To Display'}
+      {publications.length > 0 ? <Publications publications={publications} onDelete={deletePublication} /> : 'No Publications To Display'}
     </div>
   )
 }

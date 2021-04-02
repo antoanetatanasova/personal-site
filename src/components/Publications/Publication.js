@@ -1,7 +1,7 @@
 import style from './Publication.module.css';
 import { FaRegHeart, FaHeart, FaPen, FaTrash } from 'react-icons/fa';
 
-const Publication = ({ publication }) => {
+const Publication = ({ publication, onDelete }) => {
     return (
         <article className={style.publication}>
             <div className={style.publicationWrapper}>
@@ -12,7 +12,7 @@ const Publication = ({ publication }) => {
                     {publication.book}, {publication.city}, {publication.year}, {publication.pages}.
                 </p>
                 <div className={style.actionsWrapper}>
-                    <FaPen style={{"margin-right": "1rem"}} /> <FaTrash />
+                    <FaPen /> <FaTrash style={{ color: 'red', cursor: 'pointer' }} onClick={() => onDelete(publication.id)} />
                 </div>
             </div>
             <div className={style.likeWrapper}>
