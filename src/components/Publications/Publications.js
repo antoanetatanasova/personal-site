@@ -2,7 +2,7 @@ import Publication from './Publication'
 import style from './Publication.module.css'
 import { FaPlusCircle } from 'react-icons/fa'
 
-const Publications = ({ publications, onDelete }) => {
+const Publications = ({ publications, onDelete, onEdit }) => {
     return (
         <section className={style.publications}>
             <h2 className={style.publicationsPageTitle}>
@@ -15,6 +15,7 @@ const Publications = ({ publications, onDelete }) => {
                 Publication
                 key={index}
                 publication={publication}
+                onEdit={onEdit}
                 onDelete={onDelete}
             />))}
 

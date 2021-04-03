@@ -26,4 +26,6 @@
     width: 80%;
     display: flex;
     justify-content: space-between;
+    width: 72%;
+    padding-left: 4rem;
 }

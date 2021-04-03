@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import Publications from './Publications';
-import AddPublication from './AddPublication'
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import AddPublication from './../AddPublication/AddPublication'
+import EditPublication from '../EditPublication/EditPublication';
 
 const PublicationsPage = () => {
 
@@ -17,6 +17,7 @@ const PublicationsPage = () => {
     getPublications();
   }, [])
 
+
   // Fetch Publications
   const fetchPublications = async () => {
     const res = await fetch('http://localhost:5000/publications')
@@ -25,7 +26,7 @@ const PublicationsPage = () => {
   }
 
   // Fetch Publication
-  const fetcPublication = async (id) => {
+  const fetchPublication = async (id) => {
     const res = await fetch(`http://localhost:5000/publications/${id}`)
     const data = await res.json();
     return data;
@@ -46,6 +47,37 @@ const PublicationsPage = () => {
     setPublications([...publications, data]);
   }
 
+// Edit Publication
+const editPublication = async (id) => {
+
+  const publicationToUpdate = await fetchPublication(id);
+  const updPublication = {
+      ...publicationToUpdate,
+      title: publicationToUpdate.title,
+      book: publicationToUpdate.book,
+      city: publicationToUpdate.city,
+      year: publicationToUpdate.year,
+      pages: publicationToUpdate.pages
+  };
+  const res = await fetch(`http://localhost:5000/publications/${id}`, {
+      method: 'PUT',
+      headers: {
+          'Content-type': 'application/json'
+      },
+      body: JSON.stringify(updPublication)
+  })
+
+  const data = await res.json();
+  setPublications(publications.map((publication) =>
+      publication.id === id ? {
+          ...publication, title: data.title, book: publicationToUpdate.book,
+          city: publicationToUpdate.city,
+          year: publicationToUpdate.year,
+          pages: publicationToUpdate.pages
+      } : publication
+  ));
+}
+
   // Delete Publications
   const deletePublication = async (id) => {
     await fetch(`http://localhost:5000/publications/${id}`, {
@@ -60,7 +92,7 @@ const PublicationsPage = () => {
     <div className="publications">
       {/* <Publications publications={publications} /> */}
       {showAddPublication && <AddPublication onAdd={addPublication} />}
-      {publications.length > 0 ? <Publications publications={publications} onDelete={deletePublication} /> : 'No Publications To Display'}
+      {publications.length > 0 ? <Publications publications={publications} onDelete={deletePublication} onEdit={editPublication} /> : 'No Publications To Display'}
     </div>
   )
 }
