@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import Button from '../shared/Button';
-import style from './AddPublication.module.css'
 
 const AddPublication = ({ onAdd }) => {
     const [title, setTitle] = useState('');
@@ -25,11 +24,11 @@ const AddPublication = ({ onAdd }) => {
     }
 
     return (
-        <section className={style.formWrapper}>
+        <section className="formWrapper">
 
-            <form className={style.form} onSubmit={onSubmit}>
-                <h2 style={{"text-align": "center"}}>New Publication</h2>
-                <div className={style.input}>
+            <form className="form" onSubmit={onSubmit}>
+                <legend>New Publication</legend>
+                <div className="input">
                     <label>Title</label>
                     <input
                         type="text"
@@ -37,7 +36,7 @@ const AddPublication = ({ onAdd }) => {
                         value={title}
                         onChange={(e) => setTitle(e.target.value)} />
                 </div>
-                <div className={style.input}>
+                <div className="input">
                     <label>Book</label>
                     <input
                         type="text"
@@ -45,7 +44,7 @@ const AddPublication = ({ onAdd }) => {
                         value={book}
                         onChange={(e) => setBook(e.target.value)} />
                 </div>
-                <div className={style.input}>
+                <div className="input">
                     <label>City</label>
                     <input
                         type="text"
@@ -53,7 +52,7 @@ const AddPublication = ({ onAdd }) => {
                         value={city}
                         onChange={(e) => setCity(e.target.value)} />
                 </div>
-                <div className={style.input}>
+                <div className="input">
                     <label>Year</label>
                     <input
                         type="text"
@@ -61,7 +60,7 @@ const AddPublication = ({ onAdd }) => {
                         value={year}
                         onChange={(e) => setYear(e.target.value)} />
                 </div>
-                <div className={style.input}>
+                <div className="input">
                     <label>Pages</label>
                     <input
                         type="text"

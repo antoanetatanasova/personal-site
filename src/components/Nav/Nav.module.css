@@ -9,7 +9,8 @@
 
 .primaryNavItem {
     padding: .5em;
-    font-size: 1.2rem;;
+    font-size: 1.2rem;
+    ;
 }
 
 .primaryNavItem:hover {
@@ -18,11 +19,29 @@
 }
 
 .primaryNavItem:last-child {
-    margin-left: 1.2rem;
+    /* margin-left: .7rem; */
     color: #8D3FD0;
+}
+
+.primaryNavItem:last-child ul {
+    display: none;
+    position: absolute;
+    right: 20px;
+    /* width: 200px; */
+    background-color: #8D3FD0;
+    box-shadow: 3px 3px 14px 3px rgba(24, 23, 23, 0.3);
+    border-radius: 12px;
+    padding: 1.2em;
+    margin: 0px;
+    list-style: none;
+    cursor:default;
 }
 
 .primaryNavItem:last-child:hover {
     color: #ED3D63;
     border-bottom: none;
+}
+
+.primaryNavItem:last-child:hover ul {
+    display: block;
 }
