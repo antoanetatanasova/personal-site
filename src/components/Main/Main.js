@@ -9,6 +9,7 @@ import AddPublicationPage from '../AddPublication/AddPublicationPage';
 import EditPublicationPage from '../EditPublication/EditPublicationPage';
 import { auth } from '../../utils/firebase';
 import Register from './../../components/Register/Register';
+import NotFound from './../NotFound/NotFound'
 
 
 const Main = () => {
@@ -27,6 +28,7 @@ const Main = () => {
             {/* <Route path='/publications/edit/:id' component={EditPublicationPage} /> */}
             <Route path='/roles' component={RolesPage} />
             <Route path='/game' component={Quiz} />
+            <Route path='/404' component={NotFound} />
         </main>
     </Router>
     )

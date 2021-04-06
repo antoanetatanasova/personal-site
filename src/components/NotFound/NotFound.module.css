@@ -1,0 +1,13 @@
+.notFound {
+    height: 100vh;
+    background: linear-gradient(rgba(22, 27, 127, .2), rgba(22, 27, 127, .7)), url('./../../images/limousine-peugeot-404-altaya-70328-0.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0px;
+    padding: 10em 10em;
+    font-size: 42px;
+    text-align: center;
+    text-shadow: rgba(22, 27, 127, .1);
+    color: white;
+    font-family: Parisienne;
+}
