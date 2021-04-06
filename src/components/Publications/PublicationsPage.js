@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import Publications from './Publications';
 import AddPublication from './../AddPublication/AddPublication'
 import EditPublication from '../EditPublication/EditPublication';
+import NoData from '../NoData/NoData';
 
 const PublicationsPage = () => {
 
@@ -92,7 +93,7 @@ const editPublication = async (id) => {
     <div className="publications">
       {/* <Publications publications={publications} /> */}
       {showAddPublication && <AddPublication onAdd={addPublication} />}
-      {publications.length > 0 ? <Publications publications={publications} onDelete={deletePublication} onEdit={editPublication} /> : 'No Publications To Display'}
+      {publications.length > 0 ? <Publications publications={publications} onDelete={deletePublication} onEdit={editPublication} /> : <NoData />}
     </div>
   )
 }
