@@ -10,6 +10,7 @@ import EditPublicationPage from '../EditPublication/EditPublicationPage';
 import { auth } from '../../utils/firebase';
 import Register from './../../components/Register/Register';
 import NotFound from './../NotFound/NotFound'
+import AddRolePage from '../AddRole/AddRolePage';
 
 
 const Main = () => {
@@ -26,7 +27,8 @@ const Main = () => {
             <Route path='/publications' exact component={PublicationsPage} />
             <Route path='/publications/add' component={AddPublicationPage} />
             {/* <Route path='/publications/edit/:id' component={EditPublicationPage} /> */}
-            <Route path='/roles' component={RolesPage} />
+            <Route path='/roles' exact component={RolesPage} />
+            <Route path='/roles/add' component={AddRolePage} />
             <Route path='/game' component={Quiz} />
             <Route path='/404' component={NotFound} />
         </main>

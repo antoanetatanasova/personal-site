@@ -2,7 +2,7 @@ import Role from './Role'
 import style from './Role.module.css'
 import { FaPlusCircle } from 'react-icons/fa'
 
-const Roles = ({ roles }) => {
+const Roles = ({ roles, onDelete }) => {
     return (
         <section className={style.roles}>
             <h2 className={style.rolesPageTitle}>
@@ -11,7 +11,8 @@ const Roles = ({ roles }) => {
             {roles.map((role, index) => (<
                 Role
                 key={index}
-                role={role}            
+                role={role}
+                onDelete={onDelete}
             />))}
 
         </section>

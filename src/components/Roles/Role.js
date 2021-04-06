@@ -2,7 +2,7 @@ import style from './Role.module.css';
 import { FaPen, FaTrash } from 'react-icons/fa'
 import Button from './../shared/Button'
 
-const Role = ({ role }) => {
+const Role = ({ role, onDelete }) => {
     return (
         <article className={style.role}>
             <div className={style.roleWrapper}>
@@ -11,7 +11,7 @@ const Role = ({ role }) => {
                         {role.role} at {role.institution}
                     </h3>
                     <div className={style.roleActionsWrapper}>
-                        <FaPen /> <FaTrash />
+                        <FaPen /> <FaTrash style={{ color: 'red', cursor: 'pointer' }} onClick={() => onDelete(role.id)}/>
                     </div>
 
                 </div>
