@@ -22,25 +22,25 @@ const RolesPage = () => {
     }
 
     // Fetch Role
-    const fetchRole = async (id) => {
-        const res = await fetch('http://localhost:5000/roles/${id}')
-        const data = await res.json();
-        return data;
-    }
+    // const fetchRole = async (id) => {
+    //     const res = await fetch('http://localhost:5000/roles/${id}')
+    //     const data = await res.json();
+    //     return data;
+    // }
 
     // Add Role
-    const AddRole = async(role) => {
-        const res = await fetch('http://localhost:5000/roles', {
-      method: 'POST',
-      headers: {
-        'Content-type': 'application/json'
-      },
-      body: JSON.stringify(role)
-    })
+    // const AddRole = async(role) => {
+    //     const res = await fetch('http://localhost:5000/roles', {
+    //   method: 'POST',
+    //   headers: {
+    //     'Content-type': 'application/json'
+    //   },
+    //   body: JSON.stringify(role)
+    // })
 
-    const data = await res.json();
-    setRoles([...roles, data]);
-    }
+    // const data = await res.json();
+    // setRoles([...roles, data]);
+    // }
 
     // Delete Role
   const deleteRole = async (id) => {

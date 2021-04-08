@@ -15,6 +15,8 @@ const AddPublication = ({ onAdd }) => {
             return;
         }
 
+
+
         onAdd({ title, book, city, year, pages });
         setTitle('');
         setBook('');

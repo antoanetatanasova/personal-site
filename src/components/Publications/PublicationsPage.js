@@ -1,12 +1,9 @@
 import { useState, useEffect } from 'react';
 import Publications from './Publications';
-import AddPublication from './../AddPublication/AddPublication'
-import EditPublication from '../EditPublication/EditPublication';
+// import EditPublication from '../EditPublication/EditPublication';
 import NoData from '../NoData/NoData';
 
-const PublicationsPage = () => {
-
-  const [showAddPublication, setShowAddPublication] = useState(false);
+const PublicationsPage = ({ user }) => {
 
   const [publications, setPublications] = useState([]);
 
@@ -27,57 +24,57 @@ const PublicationsPage = () => {
   }
 
   // Fetch Publication
-  const fetchPublication = async (id) => {
-    const res = await fetch(`http://localhost:5000/publications/${id}`)
-    const data = await res.json();
-    return data;
-  }
+  // const fetchPublication = async (id) => {
+  //   const res = await fetch(`http://localhost:5000/publications/${id}`)
+  //   const data = await res.json();
+  //   return data;
+  // }
 
   // Add Publication
-  const addPublication = async (publication) => {
+  // const addPublication = async (publication) => {
 
-    const res = await fetch('http://localhost:5000/publications', {
-      method: 'POST',
-      headers: {
-        'Content-type': 'application/json'
-      },
-      body: JSON.stringify(publication)
-    })
+  //   const res = await fetch('http://localhost:5000/publications', {
+  //     method: 'POST',
+  //     headers: {
+  //       'Content-type': 'application/json'
+  //     },
+  //     body: JSON.stringify(publication)
+  //   })
 
-    const data = await res.json();
-    setPublications([...publications, data]);
-  }
+  //   const data = await res.json();
+  //   setPublications([...publications, data]);
+  // }
 
-// Edit Publication
-const editPublication = async (id) => {
+  // Edit Publication
+  // const editPublication = async (id) => {
 
-  const publicationToUpdate = await fetchPublication(id);
-  const updPublication = {
-      ...publicationToUpdate,
-      title: publicationToUpdate.title,
-      book: publicationToUpdate.book,
-      city: publicationToUpdate.city,
-      year: publicationToUpdate.year,
-      pages: publicationToUpdate.pages
-  };
-  const res = await fetch(`http://localhost:5000/publications/${id}`, {
-      method: 'PUT',
-      headers: {
-          'Content-type': 'application/json'
-      },
-      body: JSON.stringify(updPublication)
-  })
+  //   const publicationToUpdate = await fetchPublication(id);
+  //   const updPublication = {
+  //     ...publicationToUpdate,
+  //     title: publicationToUpdate.title,
+  //     book: publicationToUpdate.book,
+  //     city: publicationToUpdate.city,
+  //     year: publicationToUpdate.year,
+  //     pages: publicationToUpdate.pages
+  //   };
+  //   const res = await fetch(`http://localhost:5000/publications/${id}`, {
+  //     method: 'PUT',
+  //     headers: {
+  //       'Content-type': 'application/json'
+  //     },
+  //     body: JSON.stringify(updPublication)
+  //   })
 
-  const data = await res.json();
-  setPublications(publications.map((publication) =>
-      publication.id === id ? {
-          ...publication, title: data.title, book: publicationToUpdate.book,
-          city: publicationToUpdate.city,
-          year: publicationToUpdate.year,
-          pages: publicationToUpdate.pages
-      } : publication
-  ));
-}
+  //   const data = await res.json();
+  //   setPublications(publications.map((publication) =>
+  //     publication.id === id ? {
+  //       ...publication, title: data.title, book: publicationToUpdate.book,
+  //       city: publicationToUpdate.city,
+  //       year: publicationToUpdate.year,
+  //       pages: publicationToUpdate.pages
+  //     } : publication
+  //   ));
+  // }
 
   // Delete Publications
   const deletePublication = async (id) => {
@@ -91,9 +88,7 @@ const editPublication = async (id) => {
   return (
 
     <div className="publications">
-      {/* <Publications publications={publications} /> */}
-      {showAddPublication && <AddPublication onAdd={addPublication} />}
-      {publications.length > 0 ? <Publications publications={publications} onDelete={deletePublication} onEdit={editPublication} /> : <NoData />}
+      {publications.length > 0 ? <Publications publications={publications} onDelete={deletePublication} user={user} /> : <NoData />}
     </div>
   )
 }

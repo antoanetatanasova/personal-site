@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import style from './../../components/Nav/Nav.module.css'
 import { FaUserSecret } from 'react-icons/fa'
 import UserActions from '../UserActions/UserActions'

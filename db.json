@@ -79,7 +79,8 @@
       "book": "Etudes balkaniques",
       "city": "Sofia",
       "year": "2009/4",
-      "pages": "203-205"
+      "pages": "203-205",
+      "reads": 0
     },
     {
       "id": "10",
@@ -88,7 +89,8 @@
       "book": "Стандарти на всекидневието през Средновековието и Новото време",
       "city": "Велико Търново",
       "year": "2012",
-      "pages": "399-408"
+      "pages": "399-408",
+      "reads": 0
     },
     {
       "id": "11",
@@ -97,7 +99,8 @@
       "book": "Докторантски и постдокторантски четения",
       "city": "София",
       "year": "2012",
-      "pages": ""
+      "pages": "",
+      "reads": 0
     },
     {
       "id": "12",
@@ -106,7 +109,8 @@
       "book": "Advances in Bulgarian Science",
       "city": "Sofia",
       "year": "2013",
-      "pages": "56-57"
+      "pages": "56-57",
+      "reads": 0
     },
     {
       "id": "13",
@@ -115,7 +119,8 @@
       "book": "Панорама",
       "city": "София",
       "year": "2013/1",
-      "pages": "120-130"
+      "pages": "120-130",
+      "reads": 0
     },
     {
       "id": "14",
@@ -124,7 +129,8 @@
       "book": "Двувековният път на едно понятие „Балканският полуостров“ (1808-2008)",
       "city": "София",
       "year": "2014",
-      "pages": "37-49"
+      "pages": "37-49",
+      "reads": 0
     },
     {
       "id": "15",
@@ -133,7 +139,8 @@
       "book": "Advances in Bulgarian Science",
       "city": "Sofia",
       "year": "2015",
-      "pages": "67-74"
+      "pages": "67-74",
+      "reads": 0
     },
     {
       "id": "16",
@@ -142,7 +149,8 @@
       "book": "Пловдивски исторически форум",
       "city": "Пловдив",
       "year": "2020",
-      "pages": ""
+      "pages": "",
+      "reads": 0
     },
     {
       "id": "17",
@@ -151,7 +159,8 @@
       "book": "European Revolutions and the Ottoman Balkans Nationalism, Violence and Empire in the Long Nineteenth-Century, Editor: Dimitris Stamatopoulos",
       "city": "Oxford",
       "year": "2020",
-      "pages": "65-92"
+      "pages": "65-92",
+      "reads": 0
     }
   ],
   "roles": [

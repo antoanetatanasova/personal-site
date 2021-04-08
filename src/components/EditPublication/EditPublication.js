@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import Button from '../shared/Button';
 import style from './EditPublication.module.css'
 

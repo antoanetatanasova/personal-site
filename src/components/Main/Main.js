@@ -6,14 +6,14 @@ import PublicationsPage from "./../Publications/PublicationsPage";
 import RolesPage from "./../Roles/RolesPage";
 import Quiz from './../Quiz/Quiz';
 import AddPublicationPage from '../AddPublication/AddPublicationPage';
-import EditPublicationPage from '../EditPublication/EditPublicationPage';
+// import EditPublicationPage from '../EditPublication/EditPublicationPage';
 import { auth } from '../../utils/firebase';
 import Register from './../../components/Register/Register';
 import NotFound from './../NotFound/NotFound'
 import AddRolePage from '../AddRole/AddRolePage';
 
 
-const Main = () => {
+const Main = ({user}) => {
     return (<Router>
         <main>
             <Route path='/' exact component={Home} />
@@ -24,7 +24,7 @@ const Main = () => {
                 props.history.push('/');
                 }} />
             <Route path='/research' component={StudiesPage} />
-            <Route path='/publications' exact component={PublicationsPage} />
+            <Route path='/publications' exact component={PublicationsPage}/>
             <Route path='/publications/add' component={AddPublicationPage} />
             {/* <Route path='/publications/edit/:id' component={EditPublicationPage} /> */}
             <Route path='/roles' exact component={RolesPage} />

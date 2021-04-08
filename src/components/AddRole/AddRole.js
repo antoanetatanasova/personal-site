@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Button from '../shared/Button';
 
-const AddRole = ({ onAdd }) => {
+const AddRole = ({ onAdd, history }) => {
     const [institution, setInstitution] = useState('');
     const [url, setUrl] = useState('');
     const [imageUrl, setImageUrl] = useState('');
@@ -16,7 +16,7 @@ const AddRole = ({ onAdd }) => {
             return;
         }
 
-        onAdd({ institution, url, imageUrl, title, years, description });
+        onAdd({ institution, url, imageUrl, title, years, description })
         setInstitution('');
         setUrl('');
         setImageUrl('');
@@ -78,7 +78,7 @@ const AddRole = ({ onAdd }) => {
                         value={description}
                         onChange={(e) => setDescription(e.target.value)} />
                 </div>
-                
+
                 <Button text="Save Role" />
             </form>
         </section>

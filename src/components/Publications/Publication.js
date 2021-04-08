@@ -1,5 +1,5 @@
 import style from './Publication.module.css';
-import { FaRegHeart, FaHeart, FaPen, FaTrash } from 'react-icons/fa';
+import { FaBookOpen, FaPen, FaTrash } from 'react-icons/fa';
 
 const Publication = ({ publication, onDelete, onEdit }) => {
     return (
@@ -16,7 +16,7 @@ const Publication = ({ publication, onDelete, onEdit }) => {
                 </div>
             </div>
             <div className={style.likeWrapper}>
-                <FaRegHeart /> <FaHeart /> 2 liked this
+                <FaBookOpen /> {publication.reads} reads
             </div>
         </article>
     )

@@ -6,7 +6,7 @@ const Roles = ({ roles, onDelete }) => {
     return (
         <section className={style.roles}>
             <h2 className={style.rolesPageTitle}>
-                Roles <FaPlusCircle />
+                Roles <a href="/roles/add"><FaPlusCircle /></a>
             </h2>
             {roles.map((role, index) => (<
                 Role

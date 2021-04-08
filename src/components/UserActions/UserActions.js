@@ -5,7 +5,7 @@ const UserActions = ({ user }) => {
         return (
             <section className="userActions">
                 <ul>
-                    <li style={{ "font-weight": "bold" }}>Welcome, {user?.email}!</li>
+                    <li style={{ "fontWeight": "bold" }}>Welcome, {user?.email}!</li>
                     <a href="/game"><li>Play</li></a>
                     <li>or</li>
                     <a href="/logout"><li>Logout</li></a>
@@ -17,7 +17,7 @@ const UserActions = ({ user }) => {
     return (
         <section className="userActions">
             <ul>
-                <li style={{ "font-weight": "bold" }}>Only logged in users can play!</li>
+                <li style={{ "fontWeight": "bold" }}>Only logged in users can play!</li>
                 <a href="/login"><li>Login</li></a>
                 <li>or</li>
                 <a href="/register"><li>Register</li></a>
