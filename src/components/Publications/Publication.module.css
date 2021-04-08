@@ -23,6 +23,8 @@
 }
 
 .likeWrapper {
+    display: flex;
+    flex-direction: column;
     width: 15%;
     text-align: right;
     color: #8D3FD0;
