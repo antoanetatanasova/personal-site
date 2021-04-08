@@ -34,7 +34,7 @@
     padding: 1.2em;
     margin: 0px;
     list-style: none;
-    cursor:default;
+    cursor: default;
 }
 
 .primaryNavItem:last-child:hover {

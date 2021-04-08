@@ -1,8 +1,8 @@
 .profile {
-    width: 60%;
+    width: 45%;
     margin: 0px auto;
-    margin-top: 4rem;
-    margin-bottom: 7rem;
+    margin-top: 7rem;
+    margin-bottom: 10rem;
     border-bottom: 1px solid #223CCF;
 }
 
@@ -10,6 +10,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 2.5rem;
     height: 9rem;
     border: 4px solid #223CCF;
     border-radius: 50%;
