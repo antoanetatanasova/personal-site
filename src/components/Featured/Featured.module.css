@@ -1,6 +1,6 @@
 .featured {
     height: 100vh;
-    background: linear-gradient(rgba(22, 27, 127, .2), rgba(22, 27, 127, .7)), url('./../../images/A_New_Accurate_Map_of__..._Bell_Peter.jpg');
+    background: linear-gradient(rgba(237,61,99,.5) 0%, rgba(141,63,208,.6) 31%, rgba(6,131,215,.7) 100%), url('./../../images/A_New_Accurate_Map_of__..._Bell_Peter.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 0px;
