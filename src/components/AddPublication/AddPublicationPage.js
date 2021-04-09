@@ -1,14 +1,19 @@
-import { useState } from 'react';
+import { useState, useContext } from 'react';
 import AddPublication from './AddPublication'
+import AuthContext from '../../contexts/AuthContext'
+import NotFound from '../NotFound/NotFound';
 
 const AddPublicationsPage = () => {
 
     const [publications, setPublications] = useState([]);
 
+    const user = useContext(AuthContext);
+
     // Add Publication
     const addPublication = async (publication) => {
 
         console.log(publication);
+        console.log(user);
         const res = await fetch('http://localhost:5000/publications', {
             method: 'POST',
             headers: {
@@ -24,6 +29,14 @@ const AddPublicationsPage = () => {
         // const newPublication = { id, ...publication };
         // setPublications([...publications, newPublication]);
         // console.log(publication);
+    }
+
+    if (!user) {
+        return (
+            <>
+                <NotFound />
+            </>
+        )
     }
 
     return (

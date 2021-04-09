@@ -1,9 +1,12 @@
-import { useState } from 'react';
+import { useState, useContext } from 'react';
+import AuthContext from '/../../contexts/AuthContext'
 import EditPublication from './EditPublication';
 
 const EditPublicationPage = () => {
 
     const [publications, setPublications] = useState([]);
+
+    const user = useContext(AuthContext);
 
     // Fetch Publication
     const fetchPublication = async (id) => {
@@ -41,6 +44,14 @@ const EditPublicationPage = () => {
                 pages: publicationToUpdate.pages
             } : publication
         ));
+    }
+
+    if (!user) {
+        return (
+            <>
+                <NotFound />
+            </>
+        )
     }
 
     return (

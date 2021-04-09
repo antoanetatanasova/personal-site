@@ -1,9 +1,13 @@
-import { useState } from 'react';
+import { useState, useContext } from 'react';
+import AuthContext from '../../contexts/AuthContext'
 import AddRole from './AddRole'
+import NotFound from '../NotFound/NotFound'
 
 const AddRolePage = () => {
 
     const [roles, setRoles] = useState([]);
+
+    const user = useContext(AuthContext);
 
     // Add Role
     const addRole = async (role) => {
@@ -19,6 +23,14 @@ const AddRolePage = () => {
 
         const data = await res.json();
         setRoles([...roles, data]);
+    }
+
+    if (!user) {
+        return (
+            <>
+                <NotFound />
+            </>
+        )
     }
 
     return (

@@ -4,8 +4,10 @@ import Footer from './components/Footer/Footer';
 
 import { auth } from './utils/firebase';
 import { useEffect, useState } from 'react';
+import AuthContext from './contexts/AuthContext';
 
 function App() {
+
 
   const [user, setUser] = useState(null);
 
@@ -14,11 +16,13 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
-      <Header user={user} />
-      <Main user={user} />
-      <Footer />
-    </div>
+    <AuthContext.Provider value={user}>
+      <div className="App">
+        <Header user={user} />
+        <Main user={user} />
+        <Footer />
+      </div>
+    </AuthContext.Provider>
   );
 }
 
