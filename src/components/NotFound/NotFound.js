@@ -1,9 +1,11 @@
 import style from './NotFound.module.css'
+import { GiScarabBeetle } from 'react-icons/gi'
 
 const NotFound = () => {
     return (
         <section className={style.notFound}>
-                Oopps! Error 404 Page Not Found!
+               <GiScarabBeetle className={style.scarabIcon} />
+               <p>Oops! Wrong Way...</p>
         </section>
     )
 }
