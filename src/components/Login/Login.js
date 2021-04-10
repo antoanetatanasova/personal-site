@@ -12,7 +12,7 @@ const Login = ({ history }) => {
 
         let infoMessages = [];
 
-        if (email.length == 0 || password.length == 0) {
+        if (email.length === 0 || password.length === 0) {
 
             infoMessages.push('All fields are required!');
 

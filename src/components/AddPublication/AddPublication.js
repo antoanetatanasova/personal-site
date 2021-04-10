@@ -10,7 +10,6 @@ const AddPublication = ({ onAdd }) => {
     const [pages, setPages] = useState('');
 
     let infoMessages = [];
-    let errors;
 
     const onSubmit = (e) => {
         e.preventDefault();
