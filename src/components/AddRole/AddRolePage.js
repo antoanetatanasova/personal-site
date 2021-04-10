@@ -8,6 +8,7 @@ const AddRolePage = () => {
     const [roles, setRoles] = useState([]);
 
     const user = useContext(AuthContext);
+    const email = user?.email;
 
     // Add Role
     const addRole = async (role) => {
@@ -25,7 +26,7 @@ const AddRolePage = () => {
         setRoles([...roles, data]);
     }
 
-    if (!user) {
+    if (email !== "admin@example.com") {
         return (
             <>
                 <NotFound />

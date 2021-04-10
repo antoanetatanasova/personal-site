@@ -1,8 +1,8 @@
 import style from './Publication.module.css';
-import { FaBookOpen, FaPen, FaTrash } from 'react-icons/fa';
+// import { FaBookOpen } from 'react-icons/fa';
 import Button from '../shared/Button';
 import DeleteActionButton from '../AdminActions/DeleteActionButton';
-import EditActionButton from '../AdminActions/EditActionButton';
+// import EditActionButton from '../AdminActions/EditActionButton';
 
 const Publication = ({ publication, onDelete, onEdit }) => {
     return (
@@ -15,14 +15,13 @@ const Publication = ({ publication, onDelete, onEdit }) => {
                     {publication.book}, {publication.city}, {publication.year}, {publication.pages}.
                 </p>
                 <div className={style.actionsWrapper}>
-                    <EditActionButton onClick={() => onEdit(publication.id)} />
+                    {/* <EditActionButton onClick={() => onEdit(publication.id)} /> */}
                     <DeleteActionButton onClick={() => onDelete(publication.id)} />
-                    {/* <FaPen style={{ color: 'blue', cursor: 'pointer' }} onClick={() => onEdit(publication.id)} /> <FaTrash style={{ color: 'red', cursor: 'pointer' }} onClick={() => onDelete(publication.id)} /> */}
                 </div>
             </div>
             <div className={style.likeWrapper}>
                 <Button text="read it" />
-                <div style={{textAlign: "center"}}><FaBookOpen />{publication.reads} reads</div> 
+                {/* <div style={{textAlign: "center"}}><FaBookOpen />{publication.reads} reads</div>  */}
             </div>
         </article>
     )

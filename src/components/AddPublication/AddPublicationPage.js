@@ -8,6 +8,7 @@ const AddPublicationsPage = () => {
     const [publications, setPublications] = useState([]);
 
     const user = useContext(AuthContext);
+    const email = user?.email;
 
     // Add Publication
     const addPublication = async (publication) => {
@@ -31,7 +32,7 @@ const AddPublicationsPage = () => {
         // console.log(publication);
     }
 
-    if (!user) {
+    if (email !== "admin@example.com") {
         return (
             <>
                 <NotFound />
