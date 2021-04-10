@@ -1,5 +1,5 @@
 import style from './../../components/Interests/Interests.module.css';
-import { FaUniversity, FaLanguage, FaReadme } from 'react-icons/fa'
+import { FaUniversity } from 'react-icons/fa'
 import { GiArchiveResearch } from 'react-icons/gi'
 import { IoLanguage } from 'react-icons/io5'
 
@@ -19,7 +19,7 @@ const Interests = () => {
                 </li>
                 <li className={style.interestsListItem}>
                     <h4>Translation</h4>
-                    <p className={style.interestsListIcon} style={{ "textAlign": "center" }}><IoLanguage/></p>
+                    <p className={style.interestsListIcon} style={{ "textAlign": "center" }}><IoLanguage /></p>
                     <p>I take pride in being a published translator, when in 2013 I took part in translating a section of Pierre Michon's book <span>Corps du roi</span>. My prefered language pair is French-Bulgarian.</p>
                 </li>
             </ul>

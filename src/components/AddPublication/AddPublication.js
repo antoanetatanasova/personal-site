@@ -2,20 +2,33 @@ import { useState } from 'react';
 import Button from '../shared/Button';
 
 const AddPublication = ({ onAdd }) => {
+
     const [title, setTitle] = useState('');
     const [book, setBook] = useState('');
     const [city, setCity] = useState('');
     const [year, setYear] = useState('');
     const [pages, setPages] = useState('');
 
+    let infoMessages = [];
+    let errors;
+
     const onSubmit = (e) => {
         e.preventDefault();
-        if (!title) {
-            alert('Please, add a title');
-            return;
+
+        if (title.length < 3) {
+            infoMessages.push("Title must be more than 3 symbols")
         }
 
+        if (book.length < 3) {
+            infoMessages.push("Book must be more than 3 symbols")
+        }
 
+        if (infoMessages.length > 0) {
+            infoMessages.forEach(function (item) {
+                alert(item)
+            })
+            return;
+        }
 
         onAdd({ title, book, city, year, pages });
         setTitle('');
@@ -71,7 +84,6 @@ const AddPublication = ({ onAdd }) => {
                         onChange={(e) => setPages(e.target.value)} />
                 </div>
                 <Button text="Save Publication" />
-                {/* <input type="submit" value='Save Publication' className={style.submitBtn} /> */}
             </form>
         </section>
     )

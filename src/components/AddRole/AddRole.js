@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Button from '../shared/Button';
 
-const AddRole = ({ onAdd, history }) => {
+const AddRole = ({ onAdd }) => {
     const [institution, setInstitution] = useState('');
     const [url, setUrl] = useState('');
     const [imageUrl, setImageUrl] = useState('');
@@ -11,8 +11,17 @@ const AddRole = ({ onAdd, history }) => {
 
     const onSubmit = (e) => {
         e.preventDefault();
-        if (!title) {
-            alert('Please, add a title');
+
+        let infoMessages = [];
+        
+        if (institution.length < 3) {
+            infoMessages.push("Institution must be more than 3 symbols")
+        }
+
+        if (infoMessages.length > 0) {
+            infoMessages.forEach(function (item) {
+                alert(item)
+            })
             return;
         }
 

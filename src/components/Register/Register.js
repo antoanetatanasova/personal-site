@@ -13,6 +13,24 @@ const Register = ({
         const email = e.target.email.value;
         const password = e.target.password.value;
 
+        let infoMessages = [];
+
+        if (email.length == 0 || password.length == 0) {
+
+            infoMessages.push('All fields are required!');
+
+        } else if (password.length < 6) {
+
+            infoMessages.push('Password must be at least 6 symbols!');
+        } 
+
+        if (infoMessages.length > 0) {
+            infoMessages.forEach(function (item) {
+                alert(item)
+            })
+            return;
+        }
+
         auth.createUserWithEmailAndPassword(email, password)
         .then((userCredential) => {
             console.log("User registered");
