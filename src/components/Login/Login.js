@@ -16,7 +16,6 @@ const Login = ({ history }) => {
             history.push('/');
         })
 
-        console.log(email, password);
     }
 
     return (

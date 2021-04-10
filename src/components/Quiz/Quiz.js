@@ -1,8 +1,13 @@
-import { useState } from 'react'
+import { useState, useContext } from 'react';
+import AuthContext from '../../contexts/AuthContext';
+import NotFound from '../NotFound/NotFound';
 import style from './Quiz.module.css'
 
 // Credits for the Quiz App Chris Blakely https://www.freecodecamp.org/news/how-to-build-a-quiz-app-using-react/
 const Quiz = () => {
+
+    const user = useContext(AuthContext);
+
     const questions = [
         {
             questionText: 'What is the capital of France?',
@@ -59,6 +64,13 @@ const Quiz = () => {
             setShowScore(true);
         }
     };
+
+    if(!user) {
+        return (
+            <NotFound />
+        )
+    }
+
     return (
         <section className={style.quizWrapper}>
 
