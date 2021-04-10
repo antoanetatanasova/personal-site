@@ -1,10 +1,10 @@
 import { useContext } from 'react'
-import { FaPlusCircle } from 'react-icons/fa'
+import { FaTrash } from 'react-icons/fa'
 import AuthContext from '../../contexts/AuthContext';
 
-const AddActionButton = ({ path }) => {
+const AddActionButton = ({ onClick }) => {
 
-    const user= useContext(AuthContext);
+    const user = useContext(AuthContext);
     const email = user?.email;
 
     if (email !== "admin@example.com") {
@@ -12,10 +12,11 @@ const AddActionButton = ({ path }) => {
             <></>
         )
     }
+    console.log(user.email)
 
     return (
         <div className="addButton">
-            <a href={path}><FaPlusCircle style={{ cursor: 'pointer' }} /></a>            
+            <FaTrash style={{ cursor: 'pointer' }} onClick={onClick} />
         </div>
     )
 }

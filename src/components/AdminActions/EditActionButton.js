@@ -1,8 +1,8 @@
 import { useContext } from 'react'
-import { FaPlusCircle } from 'react-icons/fa'
+import { FaPen } from 'react-icons/fa'
 import AuthContext from '../../contexts/AuthContext';
 
-const AddActionButton = ({ path }) => {
+const AddActionButton = ({ onClick }) => {
 
     const user= useContext(AuthContext);
     const email = user?.email;
@@ -15,7 +15,7 @@ const AddActionButton = ({ path }) => {
 
     return (
         <div className="addButton">
-            <a href={path}><FaPlusCircle style={{ cursor: 'pointer' }} /></a>            
+            <FaPen style={{ cursor: 'pointer' }} onClick={onClick} />            
         </div>
     )
 }
