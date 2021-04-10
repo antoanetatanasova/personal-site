@@ -1,10 +1,20 @@
 import style from './Publication.module.css';
-// import { FaBookOpen } from 'react-icons/fa';
+import { useState } from 'react'
+import { FaBookOpen } from 'react-icons/fa';
 import Button from '../shared/Button';
 import DeleteActionButton from '../AdminActions/DeleteActionButton';
 // import EditActionButton from '../AdminActions/EditActionButton';
 
 const Publication = ({ publication, onDelete, onEdit }) => {
+
+    const [readsCount, setReadsCount] = useState(0)
+
+    function onReadHandler() {
+        setReadsCount(function (prev) {
+            return prev + 1;
+        })
+    }
+
     return (
         <article className={style.publication}>
             <div className={style.publicationWrapper}>
@@ -20,8 +30,8 @@ const Publication = ({ publication, onDelete, onEdit }) => {
                 </div>
             </div>
             <div className={style.likeWrapper}>
-                <Button text="read it" />
-                {/* <div style={{textAlign: "center"}}><FaBookOpen />{publication.reads} reads</div>  */}
+                <Button text="read it" onClick={onReadHandler} />
+                <div style={{ textAlign: "center" }}>{readsCount} reads <FaBookOpen /></div>
             </div>
         </article>
     )
