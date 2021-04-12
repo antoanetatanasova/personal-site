@@ -18,6 +18,7 @@
     border: .15rem solid #ED3D63;
     border-radius: 12px;
     background-color: white;
+    text-align: center;
 }
 
 .interestsListItem h4 {
@@ -33,15 +34,16 @@
 
 .interestsListItem p {
     padding: 1rem;
+    text-align: justify;
 }
 
 .interestsListIcon {
-    width: 21%;
     margin: 0px auto;
     margin-top: 2rem;
-    font-size: 2rem;
-    padding: 0px;
+    font-size: 6em;
+    padding: auto;
+    justify-content: center;
     color: #ED3D63;
-    border: 2px solid #ED3D63;
-    border-radius: 50px;
+    border: 1.5px solid #ED3D63;
+    border-radius: 50%;
 }

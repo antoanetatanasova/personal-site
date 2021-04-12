@@ -1,7 +1,7 @@
 .footer {
     width: 100%;
-    background-color: #8D3FD0;
-    color: #161B7F;
+    background-color: #161B7F ;
+    color: #0683D7;
     text-align: center;
     margin: 0px;
     padding: 5rem;
@@ -11,7 +11,7 @@
     display: flex;
     justify-content: center;
     list-style: none;
-    color: #161B7F;
+    color: #0683D7;
     margin: 0px;
     padding: 0px;
     font-size: 3em;
@@ -23,5 +23,5 @@
 
 .footerContactInfoItemLink {
     text-decoration: none;
-    color: #161B7F;
+    color: #0683D7;
 }

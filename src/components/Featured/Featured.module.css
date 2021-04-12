@@ -1,10 +1,10 @@
 .featured {
     height: 100vh;
-    background: linear-gradient(rgba(237,61,99,.5) 0%, rgba(141,63,208,.6) 31%, rgba(6,131,215,.7) 100%), url('./../../images/A_New_Accurate_Map_of__..._Bell_Peter.jpg');
+    background: linear-gradient(rgba(237, 61, 99, .5) 0%, rgba(141, 63, 208, .6) 31%, rgba(6, 131, 215, .7) 100%), url('./../../images/A_New_Accurate_Map_of__..._Bell_Peter.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 0px;
-    padding: 10em 10em;
+    padding: 14em 10em;
     text-align: center;
     color: white;
     display: flex;
@@ -15,27 +15,36 @@
 .featuredWrapper {
     width: 80%;
     margin: 0px auto;
-    background-color: rgba(255, 255, 255, .8);
+    background-color: rgba(255, 255, 255, .9);
     box-shadow: 3px 3px 14px 3px rgba(24, 23, 23, 0.8);
     border-radius: 12px;
-    color: #223CCF;
-    padding: 2em;
+    color: #8D3FD0;
+    /* border: 2px solid #161B7F; */
+    border-top: none;
 }
 
 .featuredSectionTitle {
-    text-transform: uppercase;
-    text-align: center;
-    background-color: #8D3FD0;
-    margin: 0px auto;
-    margin-top: 3em;
-    padding: .3rem;
-    width: 50%;
-    color: white;
+    background: linear-gradient(90deg, rgba(141, 63, 208, .6) 0%, rgba(6, 131, 215, .7) 50%, rgba(141, 63, 208, .6) 100%), url('./../../images/A_New_Accurate_Map_of__..._Bell_Peter.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
+    margin-top: 0px;
+    padding: 1em;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    text-align: center;
+    color:white;
 }
 
 .featuredMainTitle {
+    padding-top: .8em;
     text-transform: uppercase;
     color: #ED3D63;
+}
+
+.featuredSectionFooter {
+    margin: 2em;
+    padding-top: 1.2em;
+    border-top: 1px solid #8D3FD0;
 }
